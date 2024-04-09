@@ -17,7 +17,8 @@ char incomingPacket[255];  // buffer for incoming packets
 
 // Service Account's private key and gsheet id
 const char PRIVATE_KEY[] PROGMEM = PRIVATE_KEY_GS;
-const char spreadsheetId[] = SPREADSHEETID_1;
+// SPREADSHEETID_N => [1: TV Room, 2: Living Room, 3: Laundry, 4: Bedroom]
+const char spreadsheetId[] = SPREADSHEETID_4; // Which sheet (room) to use.
 
 // measurement variables
 float hum;  // Stores humidity value
