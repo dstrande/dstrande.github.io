@@ -110,5 +110,5 @@ for i in range(4):
         )
     )
 
-fig.write_html("plots/plot.html", include_plotlyjs=False)
+fig.write_html("index.html", include_plotlyjs=True)
 # TODO: create batch script to automate, delete gsheets data after saving to h5
